@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  margin-top: 20px;
+}
+
+.search-input,
+.items-list {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.items-list {
+  display: grid;
+  gap: 20px;
+  list-style: none;
+}
+
+.item {
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    background: lightblue;
+  }
+}

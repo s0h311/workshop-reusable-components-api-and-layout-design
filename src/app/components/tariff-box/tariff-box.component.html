@@ -1,0 +1,7 @@
+@for (tariff of tariffs; track tariff.id) {
+  <div>
+    <div>{{ tariff.name }}</div>
+
+    <cta-component [path]="tariff.onlineSubscriptionPath">Subscribe online</cta-component>
+  </div>
+}

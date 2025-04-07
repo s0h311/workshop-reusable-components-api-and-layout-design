@@ -1,0 +1,18 @@
+<input
+  class="search-input"
+  [(ngModel)]="searchQuery"
+  placeholder="Search something"
+/>
+
+@if (filteredItems().length > 0) {
+<ul class="items-list">
+  @for (item of filteredItems(); track item) {
+  <li
+    class="item"
+    (click)="handleItemSelect(item)"
+  >
+    {{item}}
+  </li>
+  }
+</ul>
+}

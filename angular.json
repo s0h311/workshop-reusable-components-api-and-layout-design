@@ -30,6 +30,7 @@
               }
             ],
             "styles": [
+              "src/preflight.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,6 +89,7 @@
               }
             ],
             "styles": [
+              "src/preflight.css",
               "src/styles.css"
             ],
             "scripts": []

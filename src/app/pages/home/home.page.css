@@ -1,4 +1,15 @@
-tariff-box-component {
+:host {
+  display: block;
+  padding-inline: 10%;
+  padding-block: 10px;
+}
+
+:host {
+  display: grid;
+  gap: 50px;
+}
+
+section {
   border: 1px darkblue solid;
   padding: 10px;
 }

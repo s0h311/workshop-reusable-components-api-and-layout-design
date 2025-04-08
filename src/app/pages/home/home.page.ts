@@ -1,13 +1,14 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core'
 import { TariffBoxComponent } from '../../components/tariff-box/tariff-box.component'
 import { SearchFieldComponent } from '../../components/search-field/search-field-component'
+import TariffListComponent from '../../components/tariff-list/tariff-list.component'
 
 @Component({
   selector: 'home-page',
   templateUrl: './home.page.html',
   styleUrl: './home.page.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TariffBoxComponent, SearchFieldComponent],
+  imports: [TariffBoxComponent, SearchFieldComponent, TariffListComponent],
 })
 export class HomePage {
   public items = [

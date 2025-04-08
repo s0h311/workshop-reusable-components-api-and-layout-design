@@ -1,6 +1,8 @@
 <h1>Home Page</h1>
 
-<tariff-box-component />
+<section>
+  <tariff-box-component />
+</section>
 
 <section>
   <h2 class="search-title">Search a person</h2>
@@ -9,4 +11,8 @@
     [items]="items"
     (itemSelect)="handleItemSelect($event)"
   />
+</section>
+
+<section>
+  <tariff-list-component />
 </section>

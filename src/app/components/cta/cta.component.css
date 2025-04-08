@@ -1,5 +1,5 @@
-:host {
-  display: block;
-  padding-inline: 10%;
-  padding-block: 10px;
+a {
+  border-radius: 10px;
+  background: lightblue;
+  padding: 5px;
 }

@@ -1,0 +1,24 @@
+<div class="tariff-wrapper">
+  @for (tariff of tariffs; track tariff.id) {
+    @if (tariff.type === 'default') {
+      <div class="default-tariff">
+        <div>{{ tariff.name }}</div>
+        <div>{{ tariff.price }}</div>
+      </div>
+    }
+
+    @if (tariff.type === 'promo') {
+      <div class="promo-tariff">
+        <div>{{ tariff.name }}</div>
+        <div>{{ tariff.price }}</div>
+      </div>
+    }
+
+    @if (tariff.type === 'disabled') {
+      <div class="disabled-tariff">
+        <div>{{ tariff.name }}</div>
+        <div>{{ tariff.price | currency }}</div>
+      </div>
+    }
+  }
+</div>

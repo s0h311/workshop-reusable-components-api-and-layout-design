@@ -1,0 +1,22 @@
+.tariff-wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+.default-tariff {
+  border: 1px lightblue solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.promo-tariff {
+  border: 1px darkorange solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.disabled-tariff {
+  border: 1px dimgray solid;
+  border-radius: 10px;
+  padding: 10px;
+}
